@@ -1,4 +1,22 @@
-body {
+body,
+.panel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.panel {
+  padding: 1em;
+  width: 256px;
+}
+
+.col {
+  flex-direction: column;
+}
+
+
+
+/* body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
   }
@@ -48,4 +66,4 @@ body {
   .game-info {
     margin-left: 20px;
   }
-  
+   */
